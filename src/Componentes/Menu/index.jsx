@@ -1,6 +1,6 @@
 import styles from './Menu.module.scss';
 import icones from './icones.json';
-import Icone from './Icone.jsx';
+import Icone from './Icone';
 
 export default function Menu(){
     return(

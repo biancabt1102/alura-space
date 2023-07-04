@@ -7,19 +7,30 @@ export default function Rodape(){
     return(
         <footer className={styles.rodape}>
             <div className={styles.rodape__icones}>
-                <a href="http://www.facebook.com.br" target='_blank'>
+                <a 
+                    href="http://www.facebook.com.br" 
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     <img src={facebook} alt="Ícone do Facebook" />
                 </a>
-                <a href="http://www.twitter.com.br" target='_blank'>
+                <a 
+                    href="http://www.twitter.com.br" 
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     <img src={twitter} alt="Ícone do Twitter" />
                 </a>
-                <a href="http://www.intagram.com.br" target='_blank'>
+                <a 
+                    href="http://www.intagram.com.br" 
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     <img src={instagram} alt="Ícone do instagram" />
                 </a>
             </div>
             <div>
-                <p>Curso da Alura</p>
-                <p>Desenvolvido por Bianca Teixeira</p>
+                <p className={styles.rodape.p}>Desenvolvido por Bianca Teixeira</p>
             </div>
         </footer>
     );
