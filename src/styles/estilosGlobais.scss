@@ -2,11 +2,11 @@
 @import "./variaveis";
 
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-image: linear-gradient($azul-escuro, $azul-claro);
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: linear-gradient($azul-escuro, $azul-claro, $azul-escuro);
+  box-sizing: border-box;
 }
 
 body::-webkit-scrollbar {
@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
 @font-face {
   font-family: "GandhiSansRegular";
   src: local("GandhiSansRegular"),
-  url("../assets/fontes/GandhiSans-Regular.otf") format("truetype");
+    url("../assets/fontes/GandhiSans-Regular.otf") format("truetype");
   font-weight: 500;
   font-display: swap;
 }
@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb {
 @font-face {
   font-family: "GandhiSansBold";
   src: local("GandhiSansBold"),
-  url("../assets/fontes/GandhiSans-Bold.otf") format("truetype");
+    url("../assets/fontes/GandhiSans-Bold.otf") format("truetype");
   font-weight: 700;
   font-display: swap;
 }
